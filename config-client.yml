@@ -1,8 +1,9 @@
-spring
+spring:
   profiles:
     active: dev
 ---
-server
+
+server:
   port: 8201
 #spring的配置
 spring:
@@ -18,7 +19,7 @@ eureka:
       defaultZone: http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka,http://eureka7001.com:7001/eureka
 
 ---
-server
+server:
   port: 8202
 #spring的配置
 spring:
